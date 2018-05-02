@@ -104,11 +104,17 @@
 		padding-top: 40px;
 	}
 	.Recommendtitle{
-		width: 110px;
 		position: relative;
 		font-family: MicrosoftYaHei-Bold;
 		font-weight: bold;
 		font-size: 27px;
+	}
+	.Recommendtitle1{
+		position: relative;
+		font-family: MicrosoftYaHei-Bold;
+		font-weight: bold;
+		font-size: 27px;
+		width: 110px;
 	}
 	
 	.RecommendVicetitle{
