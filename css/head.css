@@ -17,7 +17,17 @@
 		font-family: MicrosoftYaHei-Bold;
 		font-weight: bold;
 		font-size: 27px;
-		margin-top: 70px;
+		margin-top: 54px;
+		
+	}
+	.titleicon{
+		position: absolute;
+		width: 100px;
+		height: 0px;
+		border-top: 4px solid #0191FF;
+		top: 45px;
+		left: 109px;
+
 	}
 	/*导航标题----------------------------------------end*/
 
@@ -39,16 +49,17 @@
 		float: left;
 	}
 	.navlione{
-		background: url("../images/01.png") 75px 35px no-repeat ;
+		background-size: 10px 10px; 
+		background: url("../images/01.png") 78px 41px no-repeat ;
 	}
 	.navlitwo{
-		background: url("../images/02.png") 75px 35px no-repeat ;
+		background: url("../images/02.png") 78px 41px no-repeat ;
 	}
 	.navlithree{
-		background: url("../images/03.png") 75px 35px no-repeat ;
+		background: url("../images/03.png") 78px 41px no-repeat ;
 	}
 	.navlifour{
-		background: url("../images/04.png") 75px 35px no-repeat ;
+		background: url("../images/04.png") 78px 50px no-repeat ;
 	}
 	
 
@@ -56,9 +67,9 @@
 		background: #0191FF;
 	}
 	.navtitle{
-		font-family: 'MicrosoftYaHei',
-		font-weight:'Regular';
-		font-size: 18px;
+		font-family: '微软雅黑';
+		font-weight:600 ;
+		font-size: 14px;
 		color: #000000;
 		margin-top: 102px;
 		margin-left: 5px;
@@ -89,8 +100,8 @@
 	.Recommend{
 		text-align: center;
 		background: #F5F5F5;
-		margin-top: 95px;
-		padding-top: 48px;
+		margin-top: 60px;
+		padding-top: 40px;
 	}
 	.Recommendtitle{
 		position: relative;
@@ -388,7 +399,6 @@
 	}
 	.Marketinga{
 		display: inline-block;
-		margin-top: 40px;
 		border:1px solid #26A0FF;
 		width: 105px;
 		height: 30px;
@@ -411,7 +421,7 @@
 		width: 45px;
 		height: 0px;
 		border-top: 4px solid #0191FF;
-		top: 33px;
+		top: 45px;
 		left: 28px;
 	}
 	.showul{
@@ -424,6 +434,14 @@
 		width: 200px;
 		float: left;
 		margin-left: 8px;
+	}
+	#zturn li{
+		width: 180px;
+		background: transparent;
+		margin: 0px 0px;
+	}
+	.lunbo{
+		width: 839px;
 	}
 	/*案列展示------------------------------ end*/
 
@@ -450,7 +468,7 @@
 		width: 65px;
 		height: 0px;
 		border-top: 4px solid #fff;
-		top: 34px;
+		top: 45px;
 		left: 68px;
 	}
 	.moreul{
@@ -541,7 +559,7 @@
 		width: 60px;
 		height: 0px;
 		border-top: 4px solid #0098FE;
-		top: 34px;
+		top: 44px;
 		left: 72px;
 	}
 	.footcontent{
@@ -607,6 +625,7 @@
 	.wd-200{
 		width: 200px;
 	}
+
 
 	/*轮播 --------------start*/
 	.itemlist{

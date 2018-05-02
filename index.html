@@ -11,6 +11,10 @@
 	<link rel="stylesheet" href="css/common.css">
 	<link rel="stylesheet" href="css/head.css">
 	<link rel="stylesheet" href="css/head1.css">
+	<link rel="stylesheet" href="css/public.css" />
+	<link rel="stylesheet" type="text/css" href="css/index.css" />
+	<script src="http://www.jq22.com/jquery/jquery-1.10.2.js"></script>
+	<script type="text/javascript" src="js/zturn.js"></script>
 	<script type="text/javascript" src="js/slipe.js"></script>
 </head>
 <body>
@@ -20,7 +24,11 @@
 	
 
 	<div class="title" >
-		<p >服务源于凸赞对品质的追求</p>
+		<div style="position: relative; width: 340px;display: inline-block;">
+			<p >服务源于凸赞对品质的追求</p>
+			<i class="titleicon"></i>
+		</div>
+		
 	</div>
 	<!-- 客服指导，运营支持 推广支持 -->
 	<div class="nav">
@@ -28,25 +36,37 @@
 			<a>
 				<li class="navlione">
 					<p class="navtitle">担保交易</p>
-					<p class="navblock">腾讯云市场官方担保交易30天 不满意可申请退款</p>
+					<div class="navblock">
+						<p>腾讯云市场官方担保交易30天 </p>
+						<p >不满意可申请退款 </p>
+					</div>
 				</li>
 			</a>
 			<a>
 				<li class="navlitwo">
 					<p class="navtitle">客服指导</p>
-					<p class="navblock">腾讯云市场官方担保交易30天 不满意可申请退款</p>
+					<div class="navblock">
+						<p>免费申请注册小程序 </p>
+						<p >免费装修店铺 </p>
+					</div>				
 				</li>
 			</a>
 			<a>
 				<li class="navlithree">
 					<p class="navtitle">运营支持</p>
-					<p class="navblock">腾讯云市场官方担保交易30天 不满意可申请退款</p>
+					<div class="navblock">
+						<p>凸赞小程序商学院免费课程 </p>
+						<p >不定期直播解答授课 </p>
+					</div>					
 				</li>
 			</a>
 			<a>
 				<li class="navlifour">
 					<p class="navtitle">推广支持</p>
-					<p class="navblock">腾讯云市场官方担保交易30天 不满意可申请退款</p>
+					<div class="navblock">
+						<p>免费在凸赞官网、公众号推广 </p>
+						<p >不定期直播解答授课 </p>
+					</div>	
 				</li>
 			</a>
 		</ul>
@@ -256,49 +276,49 @@
 				</li>
 				<li  class="Marketingli9">
 					<div >
-						砍价
+						预约
 						<i class="Marketingicon"></i>
 					</div>
 				</li>
 				<li class="Marketingli10">
 					<div>
-						拆红包
+						购物
 						<i class="Marketingicon"></i>
 					</div>
 				</li>
 				<li class="Marketingli11">
 					<div>
-						拼团
+						外卖
 						<i class="Marketingicon"></i>
 					</div>
 				</li>
 				<li class="Marketingli12">
 					<div>
-						分销
+						支付
 						<i class="Marketingicon"></i>
 					</div>
 				</li>
 				<li class="Marketingli13">
 					<div>
-						会员
+						视频
 						<i class="Marketingicon"></i>
 					</div>
 				</li>
 				<li class="Marketingli14">
 					<div>
-						优惠券
+						收藏
 						<i class="Marketingicon"></i>
 					</div>
 				</li>
 				<li class="Marketingli15">
 					<div>
-						抽奖
+						点赞
 						<i class="Marketingicon"></i>
 					</div>
 				</li>
 				<li class="Marketingli16">
 					<div>
-						资讯
+						留言
 						<i class="Marketingicon"></i>
 					</div>
 				</li>
@@ -319,23 +339,28 @@
 			<!-- <span class="RecommendVicetitle">腾讯云担保交易30天</span> -->
 		</div>
 
-		<div class="mt50" >
-			<div class="itemlist clearfix">
-				<ul class="showul" id="itemlistul" >
-					<li>
-						<img src="./images/er_123.png">
+		<div class="mt20" >
+			<!--轮播-->
+		<div class="lunbo">
+			<div class="pictureSlider poster-main">
+				<div class="poster-btn poster-prev-btn"></div>
+				<ul id="zturn" class="poster-list">
+					<li class="poster-item zturn-item">
+						<img src="./images/er_123.png" >
 					</li>
-					<li>
-						<img src="./images/er_120.png">
+					<li class="poster-item zturn-item">
+						<img src="./images/er_120.png" >
 					</li>
-					<li>
-						<img src="./images/er_126.png">
+					<li class="poster-item zturn-item">
+						<img src="./images/er_126.png" >
 					</li>
-					<li>
-						<img src="./images/er_129.png">
+					<li class="poster-item zturn-item">
+						<img src="./images/er_129.png" >
 					</li>
 				</ul>
 			</div>
+		</div>
+		<!--轮播-->
 			<!-- 查看更多 -->
 			<div>
 				<a class="Marketinga mb-40" >查看更多</a>
@@ -482,11 +507,24 @@
 			</div>
 		</div>
 		<!-- 查看更多 -->
+		<!-- 白色间隙 -->
+		<div class="h-50" ></div>
 		<div>
 			<a class="Marketinga">查看更多</a>
 		</div>
 		<!-- 白色间隙 -->
-		<div class="h-80" ></div>
+		<div class="h-50" ></div>
 	</div>
 </body>
+<script type="text/javascript">
+	var aa=new zturn({
+		id:"zturn",
+		opacity:0.9,
+		width:465,
+		Awidth:639,
+		scale:0.9,
+		auto:true,//是否轮播 默认5000
+		turning:3000//轮播时长
+	})
+</script>
 </html>
