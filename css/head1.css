@@ -1,0 +1,620 @@
+@media only screen and (max-width: 400px) { 
+	body{
+		width: 360px !important;
+	}
+	/*banner----------------------------------------start*/
+	.headImg{
+		background-image: url("../image/er_01 - b.png");
+	    height: 250px;
+	    background-repeat:no-repeat; 
+	    background-size:100% 100%;
+	    -moz-background-size:100% 100%;
+  		-webkit-background-size: 100% 100%;  
+	}
+	/*banner----------------------------------------end*/
+
+	/*导航标题----------------------------------------start*/
+	.title {
+		text-align: center;
+		font-weight: bold;
+		font-size: 15px;
+		margin-top: 30px;
+		font-family: MicrosoftYaHei-Bold;
+	}
+	/*导航标题----------------------------------------end*/
+
+	/*nav ----------------------------------start*/
+	.nav{
+		margin-top: 23px;
+		text-align: center;
+	}
+	.nav ul {
+		display: inline-block;
+		width: 336px;
+		list-style: none;
+	}
+	.nav li{
+		border:1px solid #E5E5E5;
+		margin-left: 2px;
+		width: 80px;
+		height: 65px;
+		float: left;
+	}
+	.navlione{
+		background: url("../image/01.png") 23px 6px no-repeat ;
+	}
+	.navlitwo{
+		background: url("../image/02.png") 23px 6px no-repeat ;
+	}
+	.navlithree{
+		background: url("../image/03.png") 23px 6px no-repeat ;
+	}
+	.navlifour{
+		background: url("../image/04.png") 23px 6px no-repeat ;
+	}
+
+	.nav li:hover{
+		background: #0191FF;
+	}
+	.navtitle{
+		font-family: 'MicrosoftYaHei',
+		font-weight:'Regular';
+		font-size: 12px;
+		color: #000000;
+		margin-top: 39px;
+		margin-left: 5px;
+	}
+	.nav li:hover .navtitle{
+		display: none;
+	}
+	.navblock{
+		position: relative;
+		margin: 0 auto;
+		font-size: 6px;
+		font-family: 'MicrosoftYaHei',
+		font-weight:'Regular';
+		color: #FFFFFF;
+		height: 16px;
+		width: 63px;
+		margin-top: 3px;
+		display:none;
+	}
+	
+	.nav li:hover .navblock{
+		display:block;
+		border: 1px solid  #0191FF;
+	}
+	/*nav ----------------------------------end*/
+	.showtitle{
+		width: 84px; 
+		display: inline-block;
+		font-weight: bold;
+		font-size: 16px;
+		height: 33px;
+		font-family: MicrosoftYaHei-Bold;
+	}
+	.showinco{
+		position: absolute;
+		display: inline-block;
+		width: 45px;
+		height: 0px;
+		border-top: 4px solid #0191FF;
+		top: 29px;
+		left: 19px;
+		display: none;
+	}
+	/*凸赞推荐------------------------------ start*/
+	.Recommend{
+		text-align: center;
+		background: #F5F5F5;
+		margin-top: 16px;
+		padding-top: 10px;
+	}
+	.Recommendtitle{
+		position: relative;
+		font-weight: bold;
+		font-size: 16px;
+		font-family: MicrosoftYaHei-Bold;
+	}
+	.RecommendVicetitle{
+		margin-top: 10px;
+		border-radius: 5px;
+		line-height: 30px;
+		display: inline-block;
+		width: 126px;
+		font-size: 10px;
+		font-weight: bold;
+		height: 30px;
+		background: #FFCA12;
+		text-align: center;
+	}
+	.Restaurant{
+		display: inline-block;
+		text-align: center;
+		width: 335px;
+	}
+	.leftRestaurant{
+		height: 340px;
+		width: 93px;
+		background: #0097FF;
+		text-align: center;
+
+	}
+	.Restaurantimg{
+		width: 80px;
+	}
+	.mt50{
+		margin-top: 20px;
+	}
+	.Preferentialicon{
+		vertical-align:middle;
+		background: url('../image/er_36.png') 3px 0px no-repeat;
+		width: 32px;
+		height: 41px;
+		display: inline-block;
+	}
+	.Restaurantpirce{
+		vertical-align:top;
+	}
+	.fs-25{
+		font-size: 6px;
+	}
+	.Restaurantbutton{
+		margin-top: 15px;
+		padding-bottom: 16px;
+	}
+	.Restaurantbutton a{
+		display: inline-block;
+		vertical-align: top;
+		width: 37px;
+		height: 28px;
+		text-align: center;
+		color: #0F0F0F;
+		text-decoration: none;
+	}
+	.rightRestaurant{
+		height: 340px;
+		width: 241px;
+		background: white;
+		position: relative;
+		border-right:  1px solid #DCDCDC;
+		border-top: 1px solid #DCDCDC;
+		border-bottom:  1px solid #DCDCDC;
+	}
+	.introduce{
+		width: 165px;
+		margin-top: 25px;
+		padding-left: 15px;
+		text-align: left;
+	}
+	.special{
+		margin-top: 15px;
+		padding-left: 15px;
+		text-align: left;
+	}
+	.introducetitle{
+		font-size: 12px;
+		font-family:'MicrosoftYaHei-Bold';
+		font-weight: bold ;
+	}
+	.introducecontent{
+		color: #070707;
+		font-size: 12px;
+		font-family:'MicrosoftYaHei';
+		font-weight: 'Regular' ;
+		line-height: 15px;
+		letter-spacing:1px;
+	}
+	.specialinfo{
+		margin-top: 25px;
+	}
+	.specialinfo ul{
+		list-style: none;
+	}
+	.specialinfo ul li{
+		text-align: center;
+		float:left;
+		width: 56px;
+		height: 68px;
+	}
+	.specialinfoli1{
+		background: url('../image/er_59.png') 18px 0px no-repeat;
+	}
+	.specialinfoli2{
+		background: url('../image/er_27.png') 18px 0px no-repeat;
+	}
+	.specialinfoli3{
+		background: url('../image/er_30.png') 18px 0px no-repeat;
+	}
+	.specialinfoli4{
+		background: url('../image/er_32.png') 18px 0px no-repeat;
+	}
+	.specialinfoli5{
+		background: url('../image/er_43.png') 18px 0px no-repeat;
+	}
+	.specialinfoli6{
+		background: url('../image/er_45.png') 18px 0px no-repeat;
+	}
+	.specialinfoli7{
+		background: url('../image/er_47.png') 18px 0px no-repeat;
+	}
+	.specialinfoli8{
+		background: url('../image/er_48.png') 18px 0px no-repeat;
+	}
+	.retailersli1{
+		background: url('../image/er_59.png') 18px 0px no-repeat;
+	}
+	.retailersli2{
+		background: url('../image/er_57.png') 18px 0px no-repeat;
+	}
+	.retailersli3{
+		background: url('../image/er_61.png') 18px 0px no-repeat;
+	}
+	.retailersli4{
+		background: url('../image/er_63.png') 18px 0px no-repeat;
+	}
+	.retailersli5{
+		background: url('../image/er_74.png') 18px 0px no-repeat;
+	}
+	.retailersli6{
+		background: url('../image/er_45.png') 18px 0px no-repeat;
+	}
+	.retailersli7{
+		background: url('../image/er_47.png') 18px 0px no-repeat;
+	}
+	.retailersli8{
+		background: url('../image/er_48.png') 18px 0px no-repeat;
+	}
+	.specialinfop{
+		font-family: 'MicrosoftYaHei';
+		font-weight: Regular ;
+		margin-top: 31px;
+		font-size: 12px;
+	}
+	.wd-200{
+		width: 84px;
+		height: 180px;
+	}
+	.restauranticon{
+		position: absolute;
+		background: url('../image/er_18.png') no-repeat;
+		width: 75px;
+		height: 30px;
+		top: 17px;
+		right: -6px;
+	}
+	.retailersicon{
+		position: absolute;
+		background: url('../image/er_54.png') no-repeat;
+		width: 75px;
+		height: 30px;
+		top: 17px;
+		right: -6px;
+		}
+	.program{
+		display: inline-block;
+		text-align: center;
+		width: 839px;
+		padding-bottom: 40px;
+	}
+	.programul{
+		list-style: none;
+	}
+	.programul li{
+		float: left;
+	}
+	.programul li a {
+		text-decoration: none;
+		font-family: 'MicrosoftYaHei';
+		font-size: 13px;
+		color: #313030;
+		display: inline-block;
+		width: 38px;
+		height: 40px;
+		/*line-height: 40px;*/
+		margin-left: 8px;
+		background: #FFFFFF;
+	}
+	.programul li a:hover{
+		background:#0191FF;
+		color: #fff;
+	}
+	.mt20{
+		margin-top: 10px;
+	}
+	/*凸赞推荐------------------------------ end*/
+
+	/*营销工具------------------------------ start*/
+	.Marketing{
+		width: 340px;
+		margin-top: 35px;
+		text-align: center;		
+		display: inline-block;
+	}
+	.Marketingtitle{
+		display: inline-block;
+		height: 80px;
+		text-align: center;
+		font-family: MicrosoftYaHei-Bold;
+		font-weight: bold;
+		font-size: 20px;
+		position: relative;
+	}
+	.Marketingul{
+		list-style: none;
+	}
+	.Marketingul li{
+		float: left;
+		width: 75px;
+		height: 110px;
+		margin-left: 9px;
+	}
+	.Marketingul li div{
+		margin-top: 60px;
+		border-left: 1px solid #F0F0F0;
+		border-right: 1px solid #F0F0F0;
+		border-bottom: 1px solid #F0F0F0;
+		line-height: 26px;
+		height: 26px;
+		font-family: 'MicrosoftYaHei-Bold';
+		font-weight: bold;
+		font-size: 12px;
+		position: relative;
+	}
+	.Marketingicon{
+		position: absolute;
+		width: 14px;
+		height: 0px;
+		border-top: 4px solid #0191FF;
+		top: 33px;
+		left: 30px;
+		display: none;
+	}
+	.Marketingli1{
+		background: url('../image/er_83.png') 0px 0px no-repeat;
+	}
+	.Marketingli2{
+		background: url('../image/er_85.png') 0px 0px no-repeat;
+	}
+	.Marketingli3{
+		background: url('../image/er_87.png') 0px 0px no-repeat;
+	}
+	.Marketingli4{
+		background: url('../image/er_89.png') 0px 0px no-repeat;
+	}
+	.Marketingli5{
+		background: url('../image/er_95.png') 0px 0px no-repeat;
+	}
+	.Marketingli6{
+		background: url('../image/er_96.png') 0px 0px no-repeat;
+	}
+	.Marketingli7{
+		background: url('../image/er_97.png') 0px 0px no-repeat;
+	}
+	.Marketingli8{
+		background: url('../image/er_98.png') 0px 0px no-repeat;
+	}
+	.Marketingli9{
+		background: url('../image/er_103.png') 0px 0px no-repeat;
+	}
+	.Marketingli10{
+		background: url('../image/er_104.png') 0px 0px no-repeat;
+	}
+	.Marketingli11{
+		background: url('../image/er_105.png') 0px 0px no-repeat;
+	}
+	.Marketingli12{
+		background: url('../image/er_106.png') 0px 0px no-repeat;
+	}
+	.Marketingli13{
+		background: url('../image/er_111.png') 0px 0px no-repeat;
+	}
+	.Marketingli14{
+		background: url('../image/er_112.png') 0px 0px no-repeat;
+	}
+	.Marketingli15{
+		background: url('../image/er_113.png') 0px 0px no-repeat;
+	}
+	.Marketingli16{
+		background: url('../image/er_114.png') 0px 0px no-repeat;
+	}
+	.Marketinga{
+		display: inline-block;
+		margin-top: 40px;
+		border:1px solid #26A0FF;
+		width: 105px;
+		height: 30px;
+		line-height: 30px;
+		font-size: 13px;
+		color: #26A0FF;
+		/*margin-bottom: 70px;*/
+		text-decoration: none;
+		margin-bottom: 20px;
+	}
+	/*营销工具------------------------------ end*/
+
+	.more{
+		display: inline-block;
+		width: 340px;
+		text-align: center;
+	}
+	.moretitle{
+		display: inline-block;
+		width: 200px;
+		position: relative;
+		margin-top: 30px;
+		color: #fff;
+		font-family: MicrosoftYaHei-Bold;
+		font-size: 24px;
+		font-weight: bold;
+		height: 40px;
+	}
+	.h-60{
+		height: 40px;
+	}
+	.more-hr{
+		position: absolute;
+		display: inline-block;
+		width: 65px;
+		height: 0px;
+		border-top: 4px solid #fff;
+		top: 34px;
+		left: 68px;
+		display: none;
+	}
+	.moreul{
+		list-style: none;
+	}
+	.moreul li{
+		float: left;
+		width: 113px;
+		height: 100px;
+		line-height: 100px;
+		text-align: center;
+	}
+	.moreul li div{
+		margin-top: 25px;
+		color: #fff;
+	}
+	.moreli1{
+		background: url('../images/er_136.png') 30px 2px no-repeat;
+	}
+
+	.moreli2{
+		background: url('../images/er_138.png') 30px 2px no-repeat;
+	}
+	.moreli3{
+		background: url('../images/er_141.png') 30px 2px no-repeat;
+	}
+	.moreli4{
+		background: url('../images/er_144.png') 30px 2px no-repeat;
+	}
+	.moreli5{
+		background: url('../images/er_147.png') 30px 2px no-repeat;
+	}
+	.moreli6{
+		background: url('../images/er_150.png') 30px 2px no-repeat;
+	}
+	.moreli7{
+		background: url('../images/er_157_02.png') 30px 2px no-repeat;
+	}
+	.moreli8{
+		background: url('../images/er_158.png') 30px 2px no-repeat;
+	}
+	.moreli9{
+		background: url('../images/er_159.png') 30px 2px no-repeat;
+	}
+	.moreli10{
+		background: url('../images/er_160.png') 30px 2px no-repeat;
+	}
+	.moreli11{
+		background: url('../images/er_161.png') 30px 2px no-repeat;
+	}
+	.moreli12{
+		background: url('../images/er_162.png') 30px 2px no-repeat;
+	}
+	.moreli13{
+		background: url('../images/er_169.png') 30px 2px no-repeat;
+	}
+	.moreli14{
+		background: url('../images/er_171.png') 30px 2px no-repeat;
+	}
+	.moreli15{
+		background: url('../images/er_174.png') 30px 2px no-repeat;
+	}
+	.moreli16{
+		background: url('../images/er_176.png') 30px 2px no-repeat;
+	}
+	.moreli17{
+		background: url('../images/er_178.png') 30px 2px no-repeat;
+	}
+	.moreli18{
+		background: url('../images/er_179.png') 30px 2px no-repeat;
+	}
+	/*底部更多------------------------------ end*/
+
+	/*底部最后------------------------------ start*/
+	.foottitle{
+		display: inline-block;
+		width: 200px;
+		position: relative;
+		margin-top: 30px;
+		color: block;
+		font-family: MicrosoftYaHei-Bold;
+		font-size: 24px;
+		font-weight: bold;
+		height: 40px;
+	}
+	.t-hr{
+		position: absolute;
+		display: inline-block;
+		width: 71px;
+		height: 0px;
+		border-top: 4px solid #0191FF;
+		top: 45px;
+		left: 72px;
+		display: none;
+	}
+	.foot-hr{
+		position: absolute;
+		display: inline-block;
+		width: 60px;
+		height: 0px;
+		border-top: 4px solid #0098FE;
+		top: 34px;
+		left: 72px;
+		display: none;
+	}
+	.footcontent{
+		margin-top: 5px;
+		line-height: 23px;
+		font-family: MicrosoftYaHei;
+		font-size: 12px;
+	}
+	.footinfo{
+		position: relative;
+		display: inline-block;
+		width: 340px;
+		margin-top: 47px;
+	}
+	.footicon{
+		position: absolute;
+		top: 25px;
+		left: 379px;
+		border-left: 1px solid #3F3F3F;
+		height: 185px;
+	}
+	.footinforight{
+		margin-top: 20px;
+		margin-left: 35px;
+	}
+	.noneul{
+		text-align:left;
+		list-style: none;
+	}
+	.noneul li{
+		height: 35px;
+		
+	}
+	.footli1{
+		padding-left: 30px;
+		background: url('../images/er_190b.png') 0px 0px no-repeat;
+	}
+	.footli2{
+		padding-left: 30px;
+		background: url('../images/er_193.png') 0px 0px no-repeat;
+	}
+	.footli3{
+		padding-left: 30px;
+		background: url('../images/er_195.png') 0px 0px no-repeat;
+	}
+	.code{
+		text-align: left;
+	}
+	.code img{
+		margin-left: 20px;
+	}
+	.footinfoleft{
+		margin-left: 15px;
+	}
+}

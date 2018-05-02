@@ -1,0 +1,109 @@
+/*common.css*/
+
+
+.fr{
+	float: right;
+}
+.fl{
+	float: left;
+}
+.i-b{
+	display: inline-block;
+}
+/*------------项目中要用到颜色*/
+
+.c-gray{
+	color:#666 !important;/*灰色*/
+}
+.c-lyellow{/*浅黄色：*/
+	color:#FFCA12;
+}
+.b-lyellow{/*浅黄色：*/
+	background: #FFCA12;
+}
+.b-lwhite{
+	background: white;
+}
+.b-lblue{
+	background: #0098FE;
+}
+/*----------项目中要用的边距*/
+.mt10{
+	margin-top:10px; 
+}
+.mt50{
+	margin-top:50px; 
+}
+.mt20{
+	margin-top: 20px;
+}
+.mb25{
+	margin-bottom: 25px;
+}
+.mr10{
+	margin-right: 10px;
+}
+.ml20{
+	margin-left: 20px;
+}
+.ml5{
+	margin-left: 5px;
+}
+/*----------项目中要用的字体大小*/
+.fs-14{
+	font-size: 14px;
+}
+.fs-18{
+	font-size: 18px;
+}
+.fs-25{
+	font-size: 25px;
+}
+.fs-32{
+	font-size: 32px;
+}
+.fw-b{
+	font-weight: bold;
+}
+
+
+.t-lh{
+	text-decoration: line-through;
+}
+.t-hr{
+	position: absolute;
+	display: inline-block;
+	width: 71px;
+	height: 0px;
+	border-top: 4px solid #0191FF;
+	top: 45px;
+	left: 111px;
+	display: none;
+}
+
+a{
+	color:#666;
+}
+a:hover{
+	color:#2bb8aa;
+}
+.clearfix{   /*用于清除父级元素因子元素浮动而产生的高度为0的情况 */
+	overflow: hidden;
+}
+.inline{	/*让一个元素变成行内块*/
+	display: inline-block;
+	vertical-align: top;
+}
+/*文字对齐*/
+.tc{
+	text-align: center;
+}
+
+/*边框*/
+.border-r3{
+	border: 1px solid transparent;
+	border-radius: 3px;
+}
+a{
+	color: #5EB7FB;
+}

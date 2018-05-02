@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>主页</title>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2">
+    <meta name="format-detection" content="telephone=no">
+
+	<!-- <link rel="stylesheet" href="css/reset.css"> -->
+	<!-- <link rel="stylesheet" href="css/common.css"> -->
+	<!-- <link rel="stylesheet" href="css/head.css"> -->
+	<!-- <link rel="stylesheet" href="css/footer.css"> -->
+	<!-- <link rel="stylesheet" href="css/item.css"> -->
+
+	<!-- <link rel="stylesheet" href="css/index.css"> -->
+</head>
+<body>
+	<!-- banner -->
+
+	<div class="headImg"></div>
+	
+
+	<div class="title" >
+		<p style="font-size: 30px;">服务源于凸赞对品质的追求</p>
+	</div>
+	<!-- 客服指导，运营支持 推广支持 -->
+	<div class="nav">
+		<ul>
+			<li>11</li>
+		</ul>
+	</div>
+</body>
+</html>
