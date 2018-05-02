@@ -49,17 +49,20 @@
 		float: left;
 	}
 	.navlione{
-		background-size: 10px 10px; 
-		background: url("../images/01.png") 78px 41px no-repeat ;
+		background: url("../images1/01.png") 78px 41px no-repeat ;
+		background-size:50px 50px;
 	}
 	.navlitwo{
 		background: url("../images/02.png") 78px 41px no-repeat ;
+		background-size:50px 50px;
 	}
 	.navlithree{
 		background: url("../images/03.png") 78px 41px no-repeat ;
+		background-size:50px 50px;
 	}
 	.navlifour{
-		background: url("../images/04.png") 78px 50px no-repeat ;
+		background: url("../images/04.png") 78px 41px no-repeat ;
+		background-size:50px 50px;
 	}
 	
 
@@ -149,6 +152,7 @@
 	.Preferentialicon{
 		vertical-align:middle;
 		background: url('../images/er_36.png') -1px 0px no-repeat;
+		background-size:76px 71px;
 		width: 82px;
 		height: 103px;
 		display: inline-block;
@@ -213,51 +217,67 @@
 	}
 	.specialinfoli1{
 		background: url('../images/er_59.png') 38px 0px no-repeat;
+		background-size: 55px 55px;
 	}
 	.specialinfoli2{
 		background: url('../images/er_27.png') 38px 0px no-repeat;
+		background-size: 55px 55px;
 	}
 	.specialinfoli3{
 		background: url('../images/er_30.png') 38px 0px no-repeat;
+		background-size: 55px 55px;
 	}
 	.specialinfoli4{
 		background: url('../images/er_32.png') 38px 0px no-repeat;
+		background-size: 55px 55px;
 	}
 	.specialinfoli5{
 		background: url('../images/er_43.png') 38px 0px no-repeat;
+		background-size: 55px 55px;
 	}
 	.specialinfoli6{
 		background: url('../images/er_45.png') 38px 0px no-repeat;
+		background-size: 55px 55px;
 	}
 	.specialinfoli7{
 		background: url('../images/er_47.png') 38px 0px no-repeat;
+		background-size: 55px 55px;
 	}
 	.specialinfoli8{
 		background: url('../images/er_48.png') 38px 0px no-repeat;
+		background-size: 55px 55px;
 	}
 	.retailersli1{
 		background: url('../images/er_59.png') 38px 0px no-repeat;
+		background-size: 55px 55px;
 	}
 	.retailersli2{
 		background: url('../images/er_57.png') 38px 0px no-repeat;
+		background-size: 55px 55px;
 	}
 	.retailersli3{
 		background: url('../images/er_61.png') 38px 0px no-repeat;
+		background-size: 55px 55px;
 	}
 	.retailersli4{
 		background: url('../images/er_63.png') 38px 0px no-repeat;
+		background-size: 55px 55px;
 	}
 	.retailersli5{
 		background: url('../images/er_74.png') 38px 0px no-repeat;
+		background-size: 55px 55px;
 	}
 	.retailersli6{
 		background: url('../images/er_45.png') 38px 0px no-repeat;
+		background-size: 55px 55px;
 	}
 	.retailersli7{
 		background: url('../images/er_47.png') 38px 0px no-repeat;
+		background-size: 55px 55px;
 	}
 	.retailersli8{
 		background: url('../images/er_48.png') 38px 0px no-repeat;
+		background-size: 55px 55px;
 	}
 	.specialinfop{
 		font-family: 'MicrosoftYaHei';
@@ -268,6 +288,7 @@
 	.restauranticon{
 		position: absolute;
 		background: url('../images/er_18.png') no-repeat;
+		background-size: 130px 55px;
 		width: 130px;
 		height: 55px;
 		top: 17px;
@@ -276,6 +297,7 @@
 	.retailersicon{
 		position: absolute;
 		background: url('../images/er_54.png') no-repeat;
+		background-size: 130px 55px;
 		width: 130px;
 		height: 55px;
 		top: 17px;
@@ -358,51 +380,67 @@
 	}
 	.Marketingli1{
 		background: url('../images/er_83.png') 0px 0px no-repeat;
+		background-size: 200px 110px;
 	}
 	.Marketingli2{
 		background: url('../images/er_85.png') 0px 0px no-repeat;
+		background-size: 200px 110px;
 	}
 	.Marketingli3{
 		background: url('../images/er_87.png') 0px 0px no-repeat;
+		background-size: 200px 110px;
 	}
 	.Marketingli4{
 		background: url('../images/er_89.png') 0px 0px no-repeat;
+		background-size: 200px 110px;
 	}
 	.Marketingli5{
 		background: url('../images/er_95.png') 0px 0px no-repeat;
+		background-size: 200px 110px;
 	}
 	.Marketingli6{
 		background: url('../images/er_96.png') 0px 0px no-repeat;
+		background-size: 200px 110px;
 	}
 	.Marketingli7{
 		background: url('../images/er_97.png') 0px 0px no-repeat;
+		background-size: 200px 110px;
 	}
 	.Marketingli8{
 		background: url('../images/er_98.png') 0px 0px no-repeat;
+		background-size: 200px 110px;
 	}
 	.Marketingli9{
 		background: url('../images/er_103.png') 0px 0px no-repeat;
+		background-size: 200px 110px;
 	}
 	.Marketingli10{
 		background: url('../images/er_104.png') 0px 0px no-repeat;
+		background-size: 200px 110px;
 	}
 	.Marketingli11{
 		background: url('../images/er_105.png') 0px 0px no-repeat;
+		background-size: 200px 110px;
 	}
 	.Marketingli12{
 		background: url('../images/er_106.png') 0px 0px no-repeat;
+		background-size: 200px 110px;
 	}
 	.Marketingli13{
 		background: url('../images/er_111.png') 0px 0px no-repeat;
+		background-size: 200px 110px;
 	}
 	.Marketingli14{
 		background: url('../images/er_112.png') 0px 0px no-repeat;
+		background-size: 200px 110px;
 	}
 	.Marketingli15{
 		background: url('../images/er_113.png') 0px 0px no-repeat;
+		background-size: 200px 110px;
 	}
 	.Marketingli16{
 		background: url('../images/er_114.png') 0px 0px no-repeat;
+		background-size: 200px 110px;
 	}
 	.Marketinga{
 		display: inline-block;
@@ -494,57 +532,75 @@
 	}
 	.moreli1{
 		background: url('../images/er_136.png') 40px 23px no-repeat;
+		background-size: 55px 55px;
 	}
 	.moreli2{
 		background: url('../images/er_138.png') 40px 23px no-repeat;
+		background-size: 55px 55px;
 	}
 	.moreli3{
 		background: url('../images/er_141.png') 40px 23px no-repeat;
+		background-size: 55px 55px;
 	}
 	.moreli4{
 		background: url('../images/er_144.png') 40px 23px no-repeat;
+		background-size: 55px 55px;
 	}
 	.moreli5{
 		background: url('../images/er_147.png') 40px 23px no-repeat;
+		background-size: 55px 55px;
 	}
 	.moreli6{
 		background: url('../images/er_150.png') 40px 23px no-repeat;
+		background-size: 55px 55px;
 	}
 	.moreli7{
 		background: url('../images/er_157_02.png') 40px 23px no-repeat;
+		background-size: 55px 55px;
 	}
 	.moreli8{
 		background: url('../images/er_158.png') 40px 23px no-repeat;
+		background-size: 55px 55px;
 	}
 	.moreli9{
 		background: url('../images/er_159.png') 40px 23px no-repeat;
+		background-size: 55px 55px;
 	}
 	.moreli10{
 		background: url('../images/er_160.png') 40px 23px no-repeat;
+		background-size: 55px 55px;
 	}
 	.moreli11{
 		background: url('../images/er_161.png') 40px 23px no-repeat;
+		background-size: 55px 55px;
 	}
 	.moreli12{
 		background: url('../images/er_162.png') 40px 23px no-repeat;
+		background-size: 55px 55px;
 	}
 	.moreli13{
 		background: url('../images/er_169.png') 40px 23px no-repeat;
+		background-size: 55px 55px;
 	}
 	.moreli14{
 		background: url('../images/er_171.png') 40px 23px no-repeat;
+		background-size: 55px 55px;
 	}
 	.moreli15{
 		background: url('../images/er_174.png') 40px 23px no-repeat;
+		background-size: 55px 55px;
 	}
 	.moreli16{
 		background: url('../images/er_176.png') 40px 23px no-repeat;
+		background-size: 55px 55px;
 	}
 	.moreli17{
 		background: url('../images/er_178.png') 40px 23px no-repeat;
+		background-size: 55px 55px;
 	}
 	.moreli18{
 		background: url('../images/er_179.png') 40px 23px no-repeat;
+		background-size: 55px 55px;
 	}
 	/*底部更多------------------------------ end*/
 
