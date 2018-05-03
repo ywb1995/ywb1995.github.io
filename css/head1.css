@@ -662,4 +662,7 @@
 	.pictureSlider {
 		height: 265px !important;
 	}
+	.h-50{
+		height: 20px;
+	}
 }
