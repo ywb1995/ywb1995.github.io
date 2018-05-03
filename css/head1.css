@@ -156,7 +156,8 @@
 	}
 	.Preferentialicon{
 		vertical-align:middle;
-		background: url('../image/er_36.png') 3px 0px no-repeat;
+		background: url('../images/er_36.png') 3px 0px no-repeat;
+		background-size: 30px 28px;
 		width: 32px;
 		height: 41px;
 		display: inline-block;
