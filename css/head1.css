@@ -4,8 +4,9 @@
 	}
 	/*banner----------------------------------------start*/
 	.headImg{
-		background-image: url("../image/er_01 - b.png");
-	    height: 250px;
+		background-image: url("../images/er_01.png");
+	    width: 360px;
+	    height: 206px;
 	    background-repeat:no-repeat; 
 	    background-size:100% 100%;
 	    -moz-background-size:100% 100%;
