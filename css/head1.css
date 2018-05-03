@@ -97,12 +97,11 @@
 	.showinco{
 		position: absolute;
 		display: inline-block;
-		width: 45px;
+		width: 40px;
 		height: 0px;
 		border-top: 4px solid #0191FF;
 		top: 29px;
-		left: 19px;
-		display: none;
+		left: 36px;
 	}
 	/*凸赞推荐------------------------------ start*/
 	.Recommend{
@@ -350,7 +349,7 @@
 		color: #fff;
 	}
 	.mt20{
-		margin-top: 10px;
+		margin-top: 16px;
 	}
 	/*凸赞推荐------------------------------ end*/
 
@@ -505,7 +504,6 @@
 		border-top: 4px solid #fff;
 		top: 34px;
 		left: 68px;
-		display: none;
 	}
 	.moreul{
 		list-style: none;
@@ -603,12 +601,11 @@
 	.foot-hr{
 		position: absolute;
 		display: inline-block;
-		width: 60px;
+		width: 53px;
 		height: 0px;
 		border-top: 4px solid #0098FE;
 		top: 34px;
-		left: 72px;
-		display: none;
+		left: 75px;
 	}
 	.footcontent{
 		margin-top: 5px;
@@ -685,5 +682,26 @@
 	}
 	.footimg{
 		width: 308px;
+	}
+
+
+	/*下划线*/
+	.titleicon{
+		position: absolute;
+		width: 70px;
+		height: 0px;
+		border-top: 4px solid #0191FF;
+		top: 30px;
+		left: 125px;
+
+	}
+	.t-hr{
+		position: absolute;
+		display: inline-block;
+		width: 56px;
+		height: 0px;
+		border-top: 4px solid #0191FF;
+		top: 35px;
+		left: 83px;
 	}
 }

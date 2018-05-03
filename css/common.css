@@ -73,15 +73,7 @@
 .t-lh{
 	text-decoration: line-through;
 }
-.t-hr{
-	position: absolute;
-	display: inline-block;
-	width: 71px;
-	height: 0px;
-	border-top: 4px solid #0191FF;
-	top: 45px;
-	left: 111px;
-}
+
 
 a{
 	color:#666;
