@@ -151,7 +151,7 @@
 	}
 	.Preferentialicon{
 		vertical-align:middle;
-		background: url('../images/er_36.png') -1px 0px no-repeat;
+		background: url('../images/er_36.png') 2px 0px no-repeat;
 		background-size:76px 71px;
 		width: 82px;
 		height: 103px;
@@ -216,11 +216,11 @@
 		height: 106px;
 	}
 	.specialinfoli1{
-		background: url('../images/test.png') 38px 0px no-repeat;
+		background: url('../images/er_59.png') 38px 0px no-repeat;
 		background-size: 55px 55px;
 	}
 	.specialinfoli2{
-		background: url('../images/test1.png') 38px 0px no-repeat;
+		background: url('../images/er_27.png') 38px 0px no-repeat;
 		background-size: 55px 55px;
 	}
 	.specialinfoli3{
