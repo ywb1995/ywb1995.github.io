@@ -347,16 +347,16 @@
 				<div class="poster-btn poster-prev-btn"></div>
 				<ul id="zturn" class="poster-list">
 					<li class="poster-item zturn-item">
-						<img src="./images/er_123.png" >
+						<img src="./images/er_123.png" class="lunboimg">
 					</li>
 					<li class="poster-item zturn-item">
-						<img src="./images/er_120.png" >
+						<img src="./images/er_120.png" class="lunboimg">
 					</li>
 					<li class="poster-item zturn-item">
-						<img src="./images/er_126.png" >
+						<img src="./images/er_126.png" class="lunboimg">
 					</li>
 					<li class="poster-item zturn-item">
-						<img src="./images/er_126.png" >
+						<img src="./images/er_126.png" class="lunboimg">
 					</li>
 				</ul>
 			</div>
@@ -518,15 +518,49 @@
 	</div>
 </body>
 <script type="text/javascript">
-	var aa=new zturn({
-		id:"zturn",
-		opacity:0.9,
-		width:465,
-		Awidth:639,
-		scale:0.9,
-		auto:true,//是否轮播 默认5000
-		turning:1500//轮播时长
-	})
+
+	// 获取窗口宽度
+	if (window.innerWidth){
+		winWidth = window.innerWidth;
+	}
+	else if ((document.body) && (document.body.clientWidth)){
+		winWidth = document.body.clientWidth;
+	}
+	// 获取窗口高度
+	if (window.innerHeight){
+		winHeight = window.innerHeight;
+	}
+	else if ((document.body) && (document.body.clientHeight)){
+		winHeight = document.body.clientHeight;
+	}
+	// 通过深入 Document 内部对 body 进行检测，获取窗口大小
+	if (document.documentElement && document.documentElement.clientHeight && document.documentElement.clientWidth)
+	{
+		winHeight = document.documentElement.clientHeight;
+		winWidth = document.documentElement.clientWidth;
+	}
+	if(winWidth < 400){
+		var aa=new zturn({
+			id:"zturn",
+			opacity:0.9,
+			width:220,
+			Awidth:200,
+			scale:0.9,
+			auto:true,//是否轮播 默认5000
+			turning:1500//轮播时长
+		})
+	}else{
+		var aa=new zturn({
+			id:"zturn",
+			opacity:0.9,
+			width:465,
+			Awidth:639,
+			scale:0.9,
+			auto:true,//是否轮播 默认5000
+			turning:1500//轮播时长
+		})
+	}
+	
 
 </script>
 </html>

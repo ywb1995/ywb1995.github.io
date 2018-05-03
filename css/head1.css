@@ -16,10 +16,10 @@
 	/*导航标题----------------------------------------start*/
 	.title {
 		text-align: center;
-		font-weight: bold;
-		font-size: 15px;
-		margin-top: 30px;
 		font-family: MicrosoftYaHei-Bold;
+		font-weight: bold;
+		font-size: 20px;
+		margin-top: 30px;
 	}
 	/*导航标题----------------------------------------end*/
 
@@ -112,9 +112,9 @@
 	}
 	.Recommendtitle{
 		position: relative;
-		font-weight: bold;
-		font-size: 16px;
 		font-family: MicrosoftYaHei-Bold;
+		font-weight: bold;
+		font-size: 20px;
 	}
 	.RecommendVicetitle{
 		margin-top: 10px;
@@ -127,6 +127,14 @@
 		height: 30px;
 		background: #FFCA12;
 		text-align: center;
+	}
+	.Recommendtitle1{
+		position: relative;
+		font-family: MicrosoftYaHei-Bold;
+		font-weight: bold;
+		font-size: 20px;
+		width: 112px;
+		margin-top: 20px;
 	}
 	.Restaurant{
 		display: inline-block;
@@ -294,24 +302,28 @@
 	.program{
 		display: inline-block;
 		text-align: center;
-		width: 839px;
-		padding-bottom: 40px;
+		width: 360px;
+		padding-bottom: 20px;
 	}
 	.programul{
 		list-style: none;
 	}
 	.programul li{
 		float: left;
+		width: 89px;
+		margin-top: 5px; 
 	}
 	.programul li a {
+		width: 78px;
+		text-align: left;
 		text-decoration: none;
 		font-family: 'MicrosoftYaHei';
 		font-size: 13px;
 		color: #313030;
 		display: inline-block;
-		width: 38px;
-		height: 40px;
-		/*line-height: 40px;*/
+		/*width: 38px;*/
+		height: 20px;
+		line-height: 20px;
 		margin-left: 8px;
 		background: #FFFFFF;
 	}
@@ -333,7 +345,7 @@
 	}
 	.Marketingtitle{
 		display: inline-block;
-		height: 80px;
+		height: 63px;
 		text-align: center;
 		font-family: MicrosoftYaHei-Bold;
 		font-weight: bold;
@@ -420,7 +432,6 @@
 	}
 	.Marketinga{
 		display: inline-block;
-		margin-top: 40px;
 		border:1px solid #26A0FF;
 		width: 105px;
 		height: 30px;
@@ -616,5 +627,14 @@
 	}
 	.footinfoleft{
 		margin-left: 15px;
+	}
+
+	.lunboimg{
+		width: 113px;
+		
+	}
+	#zturn li{
+		width: 113px;
+		background:#F5F5F5;
 	}
 }
