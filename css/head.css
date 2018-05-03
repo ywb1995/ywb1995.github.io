@@ -666,7 +666,7 @@
 	}
 	.footli1{
 		padding-left: 30px;
-		background: url('../images/er_190b.png') 0px 0px no-repeat;
+		background: url('../images/er_190.png') 0px 0px no-repeat;
 		background-size: 21px 18px; 
 	}
 	.footli2{
@@ -713,14 +713,6 @@
 		width: 839px;
 		height: 396px;
 	} 
-
-	.moreli1:hover{
-	    transform:rotate(90deg);
-	    -ms-transform:rotate(90deg); 	/* IE 9 */
-	    -moz-transform:rotate(90deg); 	/* Firefox */
-	    -webkit-transform:rotate(90deg); /* Safari 和 Chrome */
-	    -o-transform:rotate(90deg); 	/* Opera */
-	}
 
 }
 
