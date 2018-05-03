@@ -658,14 +658,17 @@
 	.footli1{
 		padding-left: 30px;
 		background: url('../images/er_190b.png') 0px 0px no-repeat;
+		background-size: 21px 18px; 
 	}
 	.footli2{
 		padding-left: 30px;
 		background: url('../images/er_193.png') 0px 0px no-repeat;
+		background-size: 21px 18px; 
 	}
 	.footli3{
 		padding-left: 30px;
 		background: url('../images/er_195.png') 0px 0px no-repeat;
+		background-size: 21px 18px; 
 	}
 	.code{
 		text-align: left;
