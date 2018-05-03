@@ -670,6 +670,9 @@
 		background: url('../images/er_195.png') 0px 0px no-repeat;
 		background-size: 21px 18px; 
 	}
+	.footimg{
+		width: 308px;
+	}
 	.code{
 		text-align: left;
 	}
