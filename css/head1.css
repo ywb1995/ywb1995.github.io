@@ -383,52 +383,68 @@
 		display: none;
 	}
 	.Marketingli1{
-		background: url('../image/er_83.png') 0px 0px no-repeat;
+		background: url('../images/er_83.png') 0px 0px no-repeat;
+		background-size: 80px 60px;
 	}
 	.Marketingli2{
-		background: url('../image/er_85.png') 0px 0px no-repeat;
+		background: url('../images/er_85.png') 0px 0px no-repeat;
+		background-size: 80px 60px;
 	}
 	.Marketingli3{
-		background: url('../image/er_87.png') 0px 0px no-repeat;
+		background: url('../images/er_87.png') 0px 0px no-repeat;
+		background-size: 80px 60px;
 	}
 	.Marketingli4{
-		background: url('../image/er_89.png') 0px 0px no-repeat;
+		background: url('../images/er_89.png') 0px 0px no-repeat;
+		background-size: 80px 60px;
 	}
 	.Marketingli5{
-		background: url('../image/er_95.png') 0px 0px no-repeat;
+		background: url('../images/er_95.png') 0px 0px no-repeat;
+		background-size: 80px 60px;
 	}
 	.Marketingli6{
-		background: url('../image/er_96.png') 0px 0px no-repeat;
+		background: url('../images/er_96.png') 0px 0px no-repeat;
+		background-size: 80px 60px;
 	}
 	.Marketingli7{
-		background: url('../image/er_97.png') 0px 0px no-repeat;
+		background: url('../images/er_97.png') 0px 0px no-repeat;
+		background-size: 80px 60px;
 	}
 	.Marketingli8{
-		background: url('../image/er_98.png') 0px 0px no-repeat;
+		background: url('../images/er_98.png') 0px 0px no-repeat;
+		background-size: 80px 60px;
 	}
 	.Marketingli9{
-		background: url('../image/er_103.png') 0px 0px no-repeat;
+		background: url('../images/er_103.png') 0px 0px no-repeat;
+		background-size: 80px 60px;
 	}
 	.Marketingli10{
-		background: url('../image/er_104.png') 0px 0px no-repeat;
+		background: url('../images/er_104.png') 0px 0px no-repeat;
+		background-size: 80px 60px;
 	}
 	.Marketingli11{
-		background: url('../image/er_105.png') 0px 0px no-repeat;
+		background: url('../images/er_105.png') 0px 0px no-repeat;
+		background-size: 80px 60px;
 	}
 	.Marketingli12{
-		background: url('../image/er_106.png') 0px 0px no-repeat;
+		background: url('../images/er_106.png') 0px 0px no-repeat;
+		background-size: 80px 60px;
 	}
 	.Marketingli13{
-		background: url('../image/er_111.png') 0px 0px no-repeat;
+		background: url('../images/er_111.png') 0px 0px no-repeat;
+		background-size: 80px 60px;
 	}
 	.Marketingli14{
-		background: url('../image/er_112.png') 0px 0px no-repeat;
+		background: url('../images/er_112.png') 0px 0px no-repeat;
+		background-size: 80px 60px;
 	}
 	.Marketingli15{
-		background: url('../image/er_113.png') 0px 0px no-repeat;
+		background: url('../images/er_113.png') 0px 0px no-repeat;
+		background-size: 80px 60px;
 	}
 	.Marketingli16{
-		background: url('../image/er_114.png') 0px 0px no-repeat;
+		background: url('../images/er_114.png') 0px 0px no-repeat;
+		background-size: 80px 60px;
 	}
 	.Marketinga{
 		display: inline-block;
@@ -641,5 +657,9 @@
 	#zturn li{
 		width: 113px;
 		background:#F5F5F5;
+		height: 200px !important;
+	}
+	.pictureSlider {
+		height: 265px !important;
 	}
 }
