@@ -91,6 +91,7 @@
 	}
 	/*nav ----------------------------------end*/
 	.showtitle{
+		margin-right: 32px;
 		width: 84px; 
 		display: inline-block;
 		font-weight: bold;
@@ -669,8 +670,9 @@
 	}
 
 	.lunboimg{
-		width: 113px;
-		
+
+		width: 100px;
+		/*height: 200px;*/
 	}
 	#zturn li{
 		width: 113px;
