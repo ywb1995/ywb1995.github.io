@@ -516,7 +516,7 @@
 		text-align: center;
 	}
 	.foota{
-		margin-left: 14px;
+		margin-left: 3px;
 	}
 	.moretitle{
 		margin-left: 3px;
@@ -643,6 +643,7 @@
 
 	/*底部最后------------------------------ start*/
 	.foottitle{
+		/*margin-left: 1px;*/
 		display: inline-block;
 		width: 200px;
 		position: relative;
@@ -677,7 +678,7 @@
 	.footicon{
 		position: absolute;
 		top: 25px;
-		left: 379px;
+		left: 371px;
 		border-left: 1px solid #3F3F3F;
 		height: 185px;
 	}
