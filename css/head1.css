@@ -1,11 +1,17 @@
 @media only screen and (max-width: 400px) { 
 	body{
-		width: 375px !important;
+		width: 410px !important;
+		padding: 0px;
+		margin:0px;
+	}
+	html{
+		padding-right:  0px;
+		margin-right: 0px;
 	}
 	/*banner----------------------------------------start*/
 	.headImg{
 		background-image: url("../images/er_01.png");
-	    width: 375px;
+	    width: 410px;
 	    height: 206px;
 	    background-repeat:no-repeat; 
 	    background-size:100% 100%;
@@ -325,7 +331,7 @@
 	.program{
 		display: inline-block;
 		text-align: center;
-		width: 375px;
+		width: 410px;
 		padding-bottom: 20px;
 	}
 	.programul{
@@ -499,7 +505,7 @@
 		height: 40px;
 	}
 	.Restauranttop{
-		width: 375px;
+		width: 410px;
 		display: inline-block;
 	}
 	.h-60{
