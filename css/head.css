@@ -544,101 +544,164 @@
 	}
 	.moreul li{
 		float: left;
-		width: 135px;
+		width: 139px;
 		height: 100px;
 		line-height: 100px;
-		text-align: center;
+		text-align:justify
 	}
 	.moreul li div{
 		margin-top: 40px;
 		color: #fff;
 	}
 	.moreli1{
-		background: url('../images/er_136.png') 43px 25px no-repeat;
+		background: url('../images/er_136.png') 0px 25px no-repeat;
 		background-size: 48px 48px;
+	}
+	.moreli1 div{
+		margin-left: 12px;
 	}
 	.moreli2{
-		background: url('../images/er_138.png') 43px 25px no-repeat;
+		background: url('../images/er_138.png') 15px 25px no-repeat;
 		background-size: 48px 48px;
+
+	}
+	.moreli2 div{
+		margin-left:  27px;
 	}
 	.moreli3{
-		background: url('../images/er_141.png') 43px 25px no-repeat;
+		background: url('../images/er_141.png') 29px 25px no-repeat;
 		background-size: 48px 48px;
+
+	}
+	.moreli3 div{
+		margin-left:  42px;
 	}
 	.moreli4{
-		background: url('../images/er_144.png') 43px 25px no-repeat;
+		background: url('../images/er_144.png') 64px 25px no-repeat;
 		background-size: 48px 48px;
+
+	}
+	.moreli4 div{
+		margin-left:  78px;
 	}
 	.moreli5{ 
-		background: url('../images/er_144b.png') 43px 25px no-repeat;
+		background: url('../images/er_144b.png') 77px 25px no-repeat;
 				background-size: 48px 48px;
 
+	}
+	.moreli5 div{
+		margin-left:  90px;
 	}
 	.moreli6{
-		background: url('../images/er_150.png') 43px 25px no-repeat;
-				background-size: 48px 48px;
+		background: url('../images/er_150.png') 91px 25px no-repeat;
+		background-size: 48px 48px;
+						
 
+	}
+	.moreli6 div{
+		text-align: right !important;
+		margin-right: 2px;
 	}
 	.moreli7{
-		background: url('../images/er_158.png') 43px 25px no-repeat;
-				background-size: 48px 48px;
-
+		background: url('../images/er_158.png') 0px 25px no-repeat;
+		background-size: 48px 48px;
+	}
+	.moreli7 div{
+		margin-left: 10px;
 	}
 	.moreli8{
-		background: url('../images/er_159.png') 43px 25px no-repeat;
-				background-size: 48px 48px;
+		background: url('../images/er_159.png') 15px 25px no-repeat;
+		background-size: 48px 48px;
 
+	}
+	.moreli8 div{
+		margin-left:  27px;
 	}
 	.moreli9{
-		background: url('../images/er_162.png') 43px 25px no-repeat;
-				background-size: 48px 48px;
+		background: url('../images/er_162.png') 29px 25px no-repeat;
+		background-size: 48px 48px;
 
+	}
+	.moreli9 div{
+		margin-left:  42px;
 	}
 	.moreli10{
-		background: url('../images/er_160.png') 43px 25px no-repeat;
+		background: url('../images/er_160.png') 64px 25px no-repeat;
+		background-size: 48px 48px;
+
+	}
+	.moreli10 div{
+		margin-left:  78px;
+	}
+	.moreli11{ 
+		background: url('../images/er_161.png') 77px 25px no-repeat;
 				background-size: 48px 48px;
 
 	}
-	.moreli11{
-		background: url('../images/er_161.png') 43px 25px no-repeat;
-				background-size: 48px 48px;
-
+	.moreli11 div{
+		margin-left:  90px;
 	}
 	.moreli12{
-		background: url('../images/er_157_02.png') 43px 25px no-repeat;
-				background-size: 48px 48px;
+		background: url('../images/er_157_02.png') 91px 25px no-repeat;
+		background-size: 48px 48px;
+						
 
 	}
+	.moreli12 div{
+		text-align: right !important;
+		margin-right: 10px;
+	}
+	/**/
 	.moreli13{
-		background: url('../images/er_169.png') 43px 25px no-repeat;
-				background-size: 48px 48px;
-
+		background: url('../images/er_169.png') 0px 25px no-repeat;
+		background-size: 48px 48px;
+	}
+	.moreli13 div{
+		margin-left: 10px;
 	}
 	.moreli14{
-		background: url('../images/er_171.png') 43px 25px no-repeat;
-				background-size: 48px 48px;
+		background: url('../images/er_171.png') 15px 25px no-repeat;
+		background-size: 48px 48px;
 
+	}
+	.moreli14 div{
+		margin-left:  27px;
 	}
 	.moreli15{
-		background: url('../images/er_174.png') 43px 25px no-repeat;
-				background-size: 48px 48px;
+		background: url('../images/er_174.png') 29px 25px no-repeat;
+		background-size: 48px 48px;
 
+	}
+	.moreli15 div{
+		margin-left:  42px;
 	}
 	.moreli16{
-		background: url('../images/er_176.png') 43px 25px no-repeat;
+		background: url('../images/er_176.png') 64px 25px no-repeat;
+		background-size: 48px 48px;
+
+	}
+	.moreli16 div{
+		margin-left:  78px;
+	}
+	.moreli17{ 
+		background: url('../images/er_178.png') 77px 25px no-repeat;
 				background-size: 48px 48px;
 
 	}
-	.moreli17{
-		background: url('../images/er_178.png') 43px 31px no-repeat;
-				background-size: 48px 48px;
-
+	.moreli17 div{
+		margin-left:  90px;
 	}
 	.moreli18{
-		background: url('../images/er_179.png') 43px 31px no-repeat;
-				background-size: 48px 48px;
+		background: url('../images/er_179.png') 91px 25px no-repeat;
+		background-size: 48px 48px;
+						
 
 	}
+	.moreli18 div{
+		text-align: right !important;
+		margin-right: 10px;
+	}
+	
 	/*底部更多------------------------------ end*/
 
 	/*底部最后------------------------------ start*/
