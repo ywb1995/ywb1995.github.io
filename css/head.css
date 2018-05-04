@@ -489,6 +489,10 @@
 		float: left;
 		margin-left: 8px;
 	}
+	.Restauranttop{
+		width: 839px;
+		display: inline-block;
+	}
 	#zturn li{
 		width: 180px;
 		background: transparent;

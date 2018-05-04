@@ -498,6 +498,10 @@
 		font-weight: bold;
 		height: 40px;
 	}
+	.Restauranttop{
+		width: 360px;
+		display: inline-block;
+	}
 	.h-60{
 		height: 40px;
 	}
