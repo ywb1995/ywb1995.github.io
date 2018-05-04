@@ -22,11 +22,11 @@
 	}
 	.titleicon{
 		position: absolute;
-		width: 100px;
+		width: 75px;
 		height: 0px;
 		border-top: 4px solid #0191FF;
 		top: 45px;
-		left: 109px;
+		left: 132px;
 
 	}
 	/*导航标题----------------------------------------end*/
@@ -197,6 +197,7 @@
 		font-weight: bold ;
 	}
 	.introducecontent{
+		margin-left: 6px;
 		color: #070707;
 		font-size: 14px;
 		font-family: "微软雅黑";
@@ -456,11 +457,11 @@
 	.t-hr{
 	position: absolute;
 	display: inline-block;
-	width: 71px;
+	width: 75px;
 	height: 0px;
 	border-top: 4px solid #0191FF;
 	top: 45px;
-	left: 111px;
+	left: 112px;
 }
 	/*营销工具------------------------------ end*/
 
@@ -472,11 +473,11 @@
 	.showinco{
 		position: absolute;
 		display: inline-block;
-		width: 45px;
+		width: 75px;
 		height: 0px;
 		border-top: 4px solid #0191FF;
 		top: 45px;
-		left: 28px;
+		left: 17px;
 	}
 	.showul{
 		width: 839px;
@@ -503,6 +504,7 @@
 		height: 490px;
 	}
 	.mt-30{
+		margin-left: 8px;
 		margin-top: 30px;
 	}
 	/*案列展示------------------------------ end*/
@@ -513,7 +515,11 @@
 		width: 839px;
 		text-align: center;
 	}
+	.foota{
+		margin-left: 14px;
+	}
 	.moretitle{
+		margin-left: 3px;
 		display: inline-block;
 		width: 200px;
 		position: relative;
@@ -527,11 +533,11 @@
 	.more-hr{
 		position: absolute;
 		display: inline-block;
-		width: 65px;
+		width: 75px;
 		height: 0px;
 		border-top: 4px solid #fff;
 		top: 45px;
-		left: 68px;
+		left: 63px;
 	}
 	.moreul{
 		list-style: none;
@@ -650,11 +656,11 @@
 	.foot-hr{
 		position: absolute;
 		display: inline-block;
-		width: 60px;
+		width: 75px;
 		height: 0px;
 		border-top: 4px solid #0098FE;
 		top: 44px;
-		left: 72px;
+		left: 60px;
 	}
 	.footcontent{
 		margin-top: 40px;
