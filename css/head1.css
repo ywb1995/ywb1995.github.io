@@ -31,6 +31,11 @@
 	/*导航标题----------------------------------------end*/
 
 	/*nav ----------------------------------start*/
+	.navtop{
+		width: 340px;
+		text-align: center;
+		margin:  0 auto;
+	}
 	.nav{
 		margin-top: 23px;
 		text-align: center;
@@ -331,7 +336,7 @@
 	.program{
 		display: inline-block;
 		text-align: center;
-		width: 410px;
+		width: 340px;
 		padding-bottom: 20px;
 	}
 	.programul{
@@ -339,7 +344,7 @@
 	}
 	.programul li{
 		float: left;
-		width: 89px;
+		width: 82px;
 		margin-top: 5px; 
 	}
 	.programul li a {
@@ -492,6 +497,10 @@
 		display: inline-block;
 		width: 340px;
 		text-align: center;
+	}
+	.Restauranttop{
+		width: 410px;
+		display: inline-block;
 	}
 	.moretitle{
 		display: inline-block;
