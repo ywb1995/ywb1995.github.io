@@ -444,6 +444,7 @@
 		background-size: 200px 110px;
 	}
 	.Marketinga{
+		margin-top: 20px;
 		display: inline-block;
 		border:1px solid #26A0FF;
 		width: 105px;
@@ -451,7 +452,6 @@
 		line-height: 30px;
 		font-size: 13px;
 		color: #26A0FF;
-		/*margin-bottom: 70px;*/
 		text-decoration: none;
 	}
 	.t-hr{
@@ -461,7 +461,7 @@
 	height: 0px;
 	border-top: 4px solid #0191FF;
 	top: 45px;
-	left: 112px;
+	left: 111px;
 }
 	/*营销工具------------------------------ end*/
 
